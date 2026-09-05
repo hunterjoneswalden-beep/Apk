@@ -1,0 +1,10 @@
+Rejoin the APK from parts, then verify.
+
+On a PC (or Termux on the Quest):
+  cat part_00 part_01 part_02 part_03 part_04 part_05 part_06 part_07 > AnimalCompany-V4-menu.apk
+
+Verify it matches (must print this exact hash):
+  sha256sum AnimalCompany-V4-menu.apk
+  95f4f71913f18743c1ba2845061a1c5727a763fe3362ba7ba04088b11f38bc04
+
+Then: uninstall stock Animal Company, install AnimalCompany-V4-menu.apk, launch.
