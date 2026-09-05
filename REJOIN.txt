@@ -1,0 +1,5 @@
+cat part_00 part_01 part_02 part_03 part_04 part_05 part_06 part_07 part_08 > heroxhero.apk
+sha256sum heroxhero.apk -> must equal:
+dac9d359b0237e54d817856d199e3fe93d7bb0baf340a7419500483ad75d1fb3
+Uninstall HERO x HERO, install heroxhero.apk, launch.
+Press Y on left controller to toggle menu.
