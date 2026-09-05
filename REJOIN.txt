@@ -1,0 +1,4 @@
+cat part_00 part_01 part_02 part_03 part_04 part_05 part_06 part_07 > eic.apk
+sha256sum eic.apk  -> must equal:
+153d7d57577135fb605e6807f2edf7adde63d61d7caad642743728b163cf87b4
+Then: uninstall Animal Company, install eic.apk, launch.
