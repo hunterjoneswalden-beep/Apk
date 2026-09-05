@@ -1,0 +1,3 @@
+Rejoin the APK (run in the folder with the parts):
+  cat AnimalCompany-modded.apk.*.part > AnimalCompany-modded.apk
+Then install AnimalCompany-modded.apk (uninstall stock Animal Company first).
